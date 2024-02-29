@@ -3,8 +3,10 @@ class Stack:
         self.items = []
 
     def isEmpty(self):
-        if self.items == 0:
+        if not self.items:
             return True
+        else:
+            return False
 
     def push(self,item):
         return self.items.insert(0,item)
@@ -25,3 +27,4 @@ test.push(4.6)
 test.push(45)
 print(test.peek())
 print(test.pop())
+print(test.isEmpty())

@@ -23,19 +23,19 @@ class Stack:
     def size(self):
         return len(self.items)
 
-#testing
+# #testing
 
-stack = Stack()
+# stack = Stack()
 
-stack.push(4)
-stack.push('Dairy')
-stack.push(True)
+# stack.push(4)
+# stack.push('Dairy')
+# stack.push(True)
 
-print('Top element:', stack.peek())
+# print('Top element:', stack.peek())
 
-print('Popped:', stack.pop())
-print('Popped:', stack.pop())
+# print('Popped:', stack.pop())
+# print('Popped:', stack.pop())
 
-print('Is it empty :', stack.isEmpty())
+# print('Is it empty :', stack.isEmpty())
 
 
